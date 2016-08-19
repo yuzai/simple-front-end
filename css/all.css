@@ -1,3 +1,7 @@
+body {
+	border:1px dotted #000;
+	padding: 10px;
+}
 h1 {
   font-size: 28px;
 }
@@ -7,7 +11,7 @@ h1 {
 }
 #nav {
   width: 96%;
-  padding: 20px 2%;
+  padding: 2px 10px;
   background-color: rgba(243, 184, 30, 0.9);
   color: white;
   z-index: 10;
@@ -15,9 +19,28 @@ h1 {
   position: fixed;
 }
 #nav ul {
- /* float: right;*/
+ 	float: right;
 }
 #nav li {
   float: left;
   padding-right: 20px;
+}
+#nav a {
+  display: block;
+  color: white;
+  line-height: 25px;
+  text-decoration: none;
+}
+/* line 62, ../sass/main.scss */
+#nav a:hover {
+  text-decoration: underline;
+}
+.banner{
+	margin-bottom: 30px;
+}
+.banner img{
+	width:100%;
+}
+#test {
+	background-color: rgba(243, 184, 30, 0.9);
 }
