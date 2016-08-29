@@ -7,13 +7,10 @@ body {
   font-size: 16.8px;
 }
 
-/* line 12, ../sass/main.scss */
 h1 {
   font-size: 28px;
 }
 
-
-/* line 23, ../sass/main.scss */
 button {
   color: white;
   background-color: #f3b81e;
@@ -22,7 +19,7 @@ button {
   margin-top: 15px;
   cursor: pointer;
 }
-/* line 31, ../sass/main.scss */
+
 button:hover {
   background-color: #999;
 }
